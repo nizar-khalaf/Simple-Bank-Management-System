@@ -1,0 +1,8 @@
+.vs/
+x64/
+**/x64/
+**/Debug/
+**/Release/
+*.user
+*.suoBank1_Project/Clients.txt
+Bank1_Project/Clients.txt
