@@ -233,18 +233,6 @@ double HowMenyYouWantToWithdraw()
 	return HowMachWithdraw;
 }
 
-double SumAllClientsBalances(vector <stClientData> vClients)
-{
-	double TotalBalances = 0;
-	
-	for (stClientData& C : vClients)
-	{
-		TotalBalances = TotalBalances + C.AccountBalance;
-	}
-
-	return TotalBalances;
-}
-
 void PrintAllClientsData(vector <stClientData> vClients)
 {
 
@@ -312,7 +300,6 @@ void PrintAllClientsTotalBalances(vector <stClientData> vClients)
 			cout << endl;
 		}
 	}
-	
 
 	cout << "\n_______________________________________________________";
 	cout << "___________________________________________________\n" << endl;
