@@ -4,9 +4,9 @@ A simple procedural C++ application for managing bank client records using file-
 
 ## Project Description
 
-The Simple Bank Management System allows users to manage client accounts through a console application. Client information is stored in a plain text file named `Clients.example.txt`.
+The Simple Bank Management System allows users to manage bank clients and application users through a console application. Client and user information is stored in plain text files named `Clients.example.txt` and `Users.example.txt`.
 
-The application supports viewing client records, creating new accounts, deleting clients, updating account details, searching by account number, and performing deposit/withdraw transactions.
+The application supports viewing client records, creating new accounts, deleting clients, updating account details, searching by account number, performing deposit/withdraw transactions, and managing user login and access.
 
 ## Features
 
@@ -19,6 +19,21 @@ The application supports viewing client records, creating new accounts, deleting
 - Withdraw money from a client account
 - Calculate and display total balances for all clients
 - Menu-driven console interface
+- User login system
+- User management
+- Add new users
+- Delete users
+- Update user information
+- Find users
+- Permission-based access control using Bitwise Operations
+	- User permissions are stored using Bitwise Operations for efficient access control.
+## Sample Data
+
+The repository contains `Clients.example.txt` and `Users.example.txt`. Before running the application, rename these files to `Clients.txt` and `Users.txt`.
+
+## Security Note
+
+Real user data is not included in this repository. The example files are only for testing and learning.
 
 ## Technologies Used
 
@@ -70,7 +85,8 @@ The application supports viewing client records, creating new accounts, deleting
 	[4] Update Client Info
 	[5] Find Client
 	[6] TransActions
-	[7] Exit
+	[7] Manage Users
+	[8] Logout
 ====================================================
 ```
 
@@ -85,6 +101,21 @@ The application supports viewing client records, creating new accounts, deleting
 	[3] Total Balances
 	[4] Main Menu
 ====================================================
+```
+
+### Manage Users Menu
+
+```text
+==============================================================
+Manage Users Menu Screen
+==============================================================
+[1] List Users
+[2] Add New User
+[3] Delete User
+[4] Update User
+[5] Find User
+[6] Main Menu
+==============================================================
 ```
 
 ## Learning Objectives
