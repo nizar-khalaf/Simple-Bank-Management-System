@@ -54,14 +54,15 @@ Real user data is not included in this repository. The example files are only fo
 
 ## Project Structure
 
-- `Bank1_Project/Bank1_Project.cpp` - Main application logic, menu handling, and client operations
-- `Bank1_Project/NexaFile.h` - File utility functions for reading, writing, deleting, and updating records
-- `Bank1_Project/NexaInput.h` - User input helper functions for safe numeric and string input
-- `Bank1_Project/NexaProcessing.h` - Miscellaneous helper functions and table output formatting
-- `Bank1_Project/NexaString.h` - String utility functions for case conversion and splitting/joining text
-- `Bank1_Project/Clients.example.txt` - Sample client data for reference and testing
-- `Bank1_Project.slnx` - Visual Studio solution file
-- `Bank1_Project/Bank1_Project.vcxproj` - Visual Studio C++ project file
+`Bank1_Project/Bank1_Project.cpp` - Main application logic, menu handling, client and user management.
+`Bank1_Project/NexaFile.h` - File utility functions for reading, writing, deleting, and updating records.
+`Bank1_Project/NexaInput.h` - User input helper functions.
+`Bank1_Project/NexaProcessing.h` - Helper functions and table formatting.
+`Bank1_Project/NexaString.h` - String utility functions.
+`Bank1_Project/Clients.example.txt` - Sample client data for reference and testing.
+`Bank1_Project/Users.example.txt` - Sample user accounts for reference and testing.
+`Bank1_Project.slnx` - Visual Studio solution file.
+`Bank1_Project/Bank1_Project.vcxproj` - Visual Studio C++ project file.
 
 ## How to Build and Run
 
